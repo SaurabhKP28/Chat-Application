@@ -1,0 +1,21 @@
+{
+  "name": "echo-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket": "^0.14.43",
+    "socket.io": "^2.5.1"
+  },
+  "devDependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^2.0.22"
+  }
+}
